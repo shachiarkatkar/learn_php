@@ -1,0 +1,19 @@
+{
+    "name": "shachi/proj_package",
+    "authors": [
+        {
+            "name": "shachiarkatkar",
+            "email": "shachi.arkatkar@hbwsl.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^3.3",
+        "league/csv": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Migration\\": "src/"
+        }
+    }
+}
+
